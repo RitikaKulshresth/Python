@@ -1,0 +1,33 @@
+Version Control System (VCS): A system that records/saves the changes made to a file or a group of files over a certain period of time so that we can recall a particular version later.
+
+- It manages the changes
+- keeps track of each and every change that is done to a project
+- if any mistake is done, the user can compare the previous version(s) of the code and can revert to fix the problem.
+- keeps the full history of the changes done - when was the change done, who made the changes, what lines were changed.
+- also helps us to collborate with other team members.
+
+GIT - is DVCS
+
+DVCS - Distributed version control system
+
+Few important terms:
+- Repository (repo): A place where the project and its history is stored.
+- Clone: Creating a repo from another repo / Copying a repo
+- Initialize: Creating a new/empty repo
+- Merge: Integrating the changes together
+- Conflict: When different users make changes to the same file, the version control system is unable to merge/resolve it. This situation is called conflict.
+
+3 stages of GIT:
+1. Modified: means that the file is changed, but the version is not created
+2. Committed: the changes that we made is safely and successfully saved/stored in the repo as a version
+3. Staged: means that we have marked the changed files to create the version    
+    
+Basic GIT workflow:
+- Modify the files in the working tree/dir
+- Select the files to stage which are needed to be part of the next commit. Add only those changes to the staging area.
+- Perform commit - This takes the files from the staging area and stores that snapshop permanently to the local GIT repo.
+- Push the commit to remote repo (GitHub).
+
+** 2 ways of obtaining a GIT repo in local machine
+1. Creating a new empty GIT repo
+2. Clone an existing repo (from GITHUB)

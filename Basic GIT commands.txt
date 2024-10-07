@@ -1,0 +1,45 @@
+Basic GIT commands:-
+
+# Configure user:
+git config --global user.name "your name"
+git config --global user.email "your email"
+
+# Check the user configuration
+git config --global --list
+
+- Create or initialize an empty repo
+# mkdir my_project
+# cd my_project
+# git init
+# ls -la         => confirm .git directory is created
+
+# git status -> To display the status of the working directory and staging area.
+
+# git add -> Adds the file(s) to staging area
+eg:
+git add a.txt -> Adds a.txt to staging area
+git add b.css c.html -> Adds b.css & c.html to staging area
+git add *.py -> Adds all the modified files with .py extension to staging area
+git add * -> Add all modified files to staging area
+
+# git commit -m "Your message" -> Commits the files from the staging area to the .git repo
+
+# git log -> To see the commit history
+
+# git log --stat -> To see the commit history with details
+
+- Link local repo to remote repo
+# Copy the repo link from GitHub
+# git remote add origin <repo link> -> Links the remote repo to local repo
+# git remote -v -> Checks the repo link where is it linked
+
+# git remote remove origin -> To de-link the origin
+
+- Clone an existing repo
+# git clone <repo_url>
+# ls -la         => Confirms the files of the cloned repo
+
+# git push -u origin <branch name> -> Pushes the committed code from .git repo (local) to the Remote repo (GitHub)
+
+# git pull origin master -> Pulls the changes from the remote repo to local repo for master branch
+

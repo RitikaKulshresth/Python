@@ -1,0 +1,48 @@
+Basic Linux commands:
+
+# pwd -> present working directory - checks the current/ present directory where you asre working
+
+# ls -> lists all the files and folders in the current directory
+
+# ls -l -> Long listing of files and folders in the current directory
+
+# ls -la -> Long listing of files and folders including hidden files and folders in the current directory
+
+# mkdir <dir_name> -> Create a new directory.
+eg: mkdir my_dir
+
+# cd <dir_name> -> Change directory to the given directory.
+eg:
+cd my_dir -> Change directory to 'my_dir'
+cd .. -> To change directory to previous directory.
+
+# rmdir <dir_name> -> Removes the directory (if the directory is empty)
+
+# rm <file> -> Removes a file
+
+# rm -f <file> -> Removes a file forcefully
+
+# rm -r <dir name> -> Removes the directory recursively
+
+# touch <filename> -> Creates an empty file
+eg: touch a.txt
+
+# vim -> Power tool/ editor for text files used in command line.
+eg: 
+vim a.txt -> To open the file.
+i -> To go to insert mode
+esc -> To exit the insert mode
+:wq -> Saves and exit the file
+:q -> Exits the file without saving
+:wq! -> Forcefullt saves and exits the file
+:q! -> Forcefully exits the file without saving
+
+# cat <file name> -> command to see the content of the file.
+eg:
+cat a.txt
+
+
+
+
+
+
